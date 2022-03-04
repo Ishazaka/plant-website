@@ -1,6 +1,5 @@
 
 
-
 const sr = ScrollReveal({
   origin:'top',
   distance:'60px',
@@ -15,5 +14,5 @@ sr.reveal(`.home-img` , {delay:500});
 sr.reveal(`.home-links` , {delay:600} );
 sr.reveal(`.about-img` ,{origin : 'left'});
 sr.reveal(`.about-text` ,{origin : 'right'});
-sr.reveal(`.card` ,{interval:100});
+sr.reveal(`.card , .product-img` ,{interval:100});
 
