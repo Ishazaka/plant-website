@@ -1,1 +1,25 @@
 
+
+
+.card{
+
+  transition: .3s;
+}
+.product-photo{
+   transition: .3s;
+}
+
+
+
+
+.card:hover .card-title {
+  transform: translateY(-.5rem);
+}
+.product-cart{
+  font-size: 30px;
+  margin-left: 26px;
+  
+}
+.product-photo:hover{
+  transform: translateY(-.8rem);
+}
