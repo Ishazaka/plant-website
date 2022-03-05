@@ -1,6 +1,5 @@
 
 
-
 .card{
 
   transition: .3s;
@@ -9,11 +8,8 @@
    transition: .3s;
 }
 
-
-
-
 .card:hover .card-title {
-  transform: translateY(-.5rem);
+  transform: translateY(-16px);
 }
 .product-cart{
   font-size: 30px;
@@ -21,5 +17,6 @@
   
 }
 .product-photo:hover{
-  transform: translateY(-.8rem);
+   transform: translateY(-20px);
+
 }
